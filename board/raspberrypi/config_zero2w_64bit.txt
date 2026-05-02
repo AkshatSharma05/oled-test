@@ -27,3 +27,6 @@ dtoverlay=miniuart-bt
 
 # enable 64bits support
 arm_64bit=1
+
+dtparam=spi=on
+dtoverlay=sh1106-spi,dc_pin=24,reset_pin=25
